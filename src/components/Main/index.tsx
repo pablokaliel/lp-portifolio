@@ -1,8 +1,13 @@
-import { Container,Title,Email,Infos,Info,Text,DivIcons,Icons,Icon,Github,Instagram,Linkedin,Facebook } from "./styles";
+import Awards from "../Awards";
+import Education from "../Education";
+import Experience from "../Experience";
+import { Interests } from "../Interests";
+import Skills from "../Skills";
+import { Container,FirstName,SecondName,Email,Infos,Info,Text,DivIcons,Icons,Icon,Github,Instagram,Linkedin,Facebook } from "./styles";
 function Main() {
   return (
     <Container>
-      <Title>CLARENCE TAYLOR</Title>
+      <FirstName>CLARENCE  <SecondName>TAYLOR</SecondName></FirstName>
       
         <Infos>
           <Info>3542 BERRY STREET · CHEYENNE WELLS, CO 80810 · (317) 585-8468</Info>
@@ -23,6 +28,11 @@ function Main() {
           <Icon href="#"><Facebook/></Icon>
         </Icons>
       </DivIcons>
+      <Experience/>
+      <Education/>
+      <Skills/>
+      <Interests/>
+      <Awards/>
     </Container>
   );
 }

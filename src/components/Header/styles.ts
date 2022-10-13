@@ -1,7 +1,5 @@
 import styled from 'styled-components';
-import {RiComputerLine} from 'react-icons/ri'
-import {HiOutlineDeviceMobile} from 'react-icons/hi'
-import {BsGithub} from 'react-icons/bs'
+import {BsGithub, BsSunFill, BsMoonFill} from 'react-icons/bs'
 
 export const Container = styled.div`
   display:flex;
@@ -10,6 +8,10 @@ export const Container = styled.div`
   padding:8px;
   background:#202024;
   border-bottom: 2px solid gray;
+  position:fixed;
+  width:100%;
+  z-index:2;
+  
 `;
 export const DivGit = styled.div`
 `;
@@ -32,18 +34,21 @@ color: #e1e1e6;
 export const DivDesktopOrMobile = styled.div`
 
 `;
-export const Computer = styled(RiComputerLine)`
+export const Computer = styled(BsSunFill)`
 height:20px;
 width:20px;
 margin-right:20px;
 color: #e1e1e6;
 :hover{
   cursor:pointer;
-  color:#00b37e;
+  color:#bd5d38;
   transition: all 0.3s;
-}
+};
+
+
+
 `;
-export const Mobile = styled(HiOutlineDeviceMobile)`
+export const Mobile = styled(BsMoonFill)`
 height:20px;
 width:20px;
 margin-right:18px;

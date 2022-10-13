@@ -2,15 +2,24 @@ import styled from 'styled-components';
 import {BsGithub, BsFacebook, BsLinkedin,BsInstagram} from 'react-icons/bs'
 
 export const Container = styled.div`
-  margin-left:330px;
+  margin-left:300px;
   display: flex;
   flex-direction: column;
-  margin-top:40px;
+  margin-top:70px;
+  position:absolute;
+  justify-content:center;
+  margin-top:240px;
 `;
 
-export const Title = styled.h1`
+export const FirstName = styled.p`
 color: #e1e1e6;
 font-size: calc(1.1rem + 3.4vw);
+font-weight:bold;
+`;
+export const SecondName = styled.span`
+color:#00b37e;
+font-size: calc(1.1rem + 3.4vw);
+font-weight:bold;
 `;
 export const Email = styled.a`
 color:#00b37e;
@@ -32,6 +41,8 @@ margin-bottom:3rem;
 
 `;
 export const DivIcons = styled.div`
+
+margin-bottom:39vh;
 `;
 export const Icons = styled.ul`
   display:flex;

@@ -4,13 +4,16 @@ import Perfil from "./components/Perfil";
 import GlobalStyles from "./styles/GlobalStyles";
 
 function App() {
+
   return (
-    <div className="App">
+  
+   <div className="App">
       <Header/>
       <Perfil/>
       <Main/>
      <GlobalStyles/>
     </div>
+    
   );
 }
 

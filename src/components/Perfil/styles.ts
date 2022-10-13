@@ -8,6 +8,7 @@ export const Container = styled.div`
   width: 17rem;
   height: 100vh;
   background:#202024;
+  border-right: 2px solid gray;
 `;
 
 export const DivIcone = styled.div`
