@@ -42,9 +42,10 @@ color: #e1e1e6;
   color:#00b37e;
   transition: all 0.3s;
 }
-:active{
+:focus{
   margin :1px;
   border-bottom: 1px solid #00b37e;
+  color:#00b37e;
 }
 `;
 export const About1 = styled.a`

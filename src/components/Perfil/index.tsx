@@ -7,7 +7,7 @@ function Perfil() {
         <ImagePerfil src='https://avatars.githubusercontent.com/u/104238801?v=4' alt='Image'/>
       </DivIcone>
       <DivOptions >
-        <About1 href="#">About</About1>
+        <About href="#">About</About>
         <About href="#">Experience</About>
         <About href="#">Education</About>
         <About href="#">Skills</About>
