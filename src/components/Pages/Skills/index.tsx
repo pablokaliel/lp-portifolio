@@ -3,8 +3,9 @@ import {Container,Title,React,Html,Less,Sass,Npm,Angular,Android,Java,SubTitle,D
 function Skills () {
   return ( 
     <Container>
-      <Title>Skills</Title>
-      <SubTitle>Programming Languages & Tools</SubTitle>
+      <Title>SKILLS</Title>
+      <SubTitle>PROGRAMMING LANGUAGES & TOOLS
+</SubTitle>
       <DivIcons>
         <Html/>
         <Java/>
@@ -15,7 +16,7 @@ function Skills () {
         <Angular/>
         <Android/>
       </DivIcons>
-      <WorkFlow>WorkFlow</WorkFlow>
+      <WorkFlow>WORKFLOW</WorkFlow>
       <DivCertificed>
         <Mobile><Check/>Mobile-First, Responsive Design</Mobile>
         <Testing><Check/>Cross Browser Testing & Debuggin</Testing>

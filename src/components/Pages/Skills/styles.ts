@@ -11,8 +11,9 @@ export const Title = styled.h1`
 margin-top:39vh;
 color:#00b37a;
 `;
-export const SubTitle = styled.span`
+export const SubTitle = styled.p`
 color:#e1e1e6;
+margin-top:15px;
 `;
 export const DivIcons = styled.div`
 max-width:80%;
