@@ -1,4 +1,4 @@
-import ContextExperience from '../Experience/ContextExperience';
+import ContextExperience from '../../Experience/ContextExperience';
 import {Container,Swapper} from './styles'
 
 function Education() {

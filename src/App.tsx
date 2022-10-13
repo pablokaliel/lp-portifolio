@@ -1,6 +1,6 @@
-import Header from "./components/Header";
-import Main from "./components/Main";
-import Perfil from "./components/Perfil";
+import Header from "./components/Pages/Header";
+import Main from "./components/Pages/Main";
+import Perfil from "./components/Pages/Perfil";
 import GlobalStyles from "./styles/GlobalStyles";
 
 function App() {
