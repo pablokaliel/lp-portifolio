@@ -5,6 +5,11 @@ import {DiJavascript,DiReact,DiSass,DiLess,DiNpm,DiAndroid,DiAngularSimple,DiGul
 export const Container = styled.div`
 margin-bottom:39vh;
 border-top: 1px solid gray;
+@media (max-width: 770px) {
+   justify-content:center;
+   padding: 0 30px;
+   align-items:center;
+}
 `;
 
 export const Title = styled.h1`
@@ -21,6 +26,11 @@ max-width:80%;
 display: flex;
 justify-content:space-evenly;
 margin: 30px 0px;
+@media (max-width: 770px) {
+flex-wrap:wrap;
+max-width:100%;
+justify-content:center;
+}
 `;
 
 export const WorkFlow = styled.p`

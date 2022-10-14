@@ -9,6 +9,12 @@ export const Container = styled.div`
   position:absolute;
   justify-content:center;
   margin-top:240px;
+  @media (max-width: 770px) {
+   margin-left:0px;
+   margin-top:150px;
+   justify-content:center;
+   align-items:center;
+}
 `;
 
 export const FirstName = styled.p`
@@ -24,11 +30,19 @@ font-weight:bold;
 export const Email = styled.a`
 color:#00b37e;
 margin-left:12px;
+@media (max-width: 770px) {
+  margin-left:0;
+}
 `;
 export const Infos = styled.ul`
 display:flex;
 margin-top:7px;
 margin-bottom:3rem;
+@media (max-width: 770px) {
+   justify-content:center;
+   padding: 0 30px;
+  flex-direction:column;
+}
 `;
 export const Info = styled.p`
 color: #6c757d;
@@ -39,6 +53,9 @@ color: #e1e1e6;
 font-size:1.15rem;
 margin-bottom:3rem;
 
+@media (max-width: 770px) {
+   padding: 0 30px;
+}
 `;
 export const DivIcons = styled.div`
 
@@ -62,8 +79,9 @@ export const Github = styled(BsGithub)`
   color:#00b37a;
   transition: all 0.3s;
 }
-:active{
-  margin :1px;
+@media (max-width: 770px) {
+   height:2.5rem;
+   width:2.5rem;
 }
 `;
 export const Instagram = styled(BsInstagram)`
@@ -75,8 +93,9 @@ export const Instagram = styled(BsInstagram)`
   color:#00b37a;
   transition: all 0.3s;
 }
-:active{
-  margin :1px;
+@media (max-width: 770px) {
+   height:2.5rem;
+   width:2.5rem;
 }
 `;
 export const Linkedin = styled(BsLinkedin)`
@@ -88,8 +107,9 @@ export const Linkedin = styled(BsLinkedin)`
   color:#00b37a;
   transition: all 0.3s;
 }
-:active{
-  margin :1px;
+@media (max-width: 770px) {
+   height:2.5rem;
+   width:2.5rem;
 }
 `;
 export const Facebook = styled(BsFacebook)`
@@ -101,7 +121,8 @@ export const Facebook = styled(BsFacebook)`
   color:#00b37a;
   transition: all 0.3s;
 }
-:active{
-  margin :1px;
+@media (max-width: 770px) {
+   height:2.5rem;
+   width:2.5rem;
 }
 `;

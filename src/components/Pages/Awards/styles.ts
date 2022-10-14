@@ -4,12 +4,20 @@ import {FaTrophy} from 'react-icons/fa'
 export const Container = styled.div`
 margin-bottom:39vh;
 border-top:1px solid gray;
+@media (max-width: 770px) {
+   justify-content:center;
+   padding: 0 30px;
+   align-items:center;
+}
 
 `;
 export const Check = styled(FaTrophy)`
 color:#ffc107;
 margin-left:15px;
 margin-right:10px;
+@media (max-width: 770px) {
+  margin:0px 5px;
+}
 `;
 
 

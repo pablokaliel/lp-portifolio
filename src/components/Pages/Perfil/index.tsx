@@ -10,15 +10,23 @@ function Perfil() {
       behavior: "smooth",
     });
   };
+  
 
+  
+  function getPageYAfterScroll(){
+    console.log(window.scrollY);
+}
+
+window.addEventListener('scroll', getPageYAfterScroll);
+ 
   return ( 
     <Container>
       <DivIcone>
-        <ImagePerfil src='https://avatars.githubusercontent.com/u/104238801?v=4' alt='Image'/>
+        <ImagePerfil src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS4Gl24ayq6YsEcQNsQ0b8IuomsSou__h6pXT8dH_fcDvOa2ol4hv2W-DCy7maqFViwrA&usqp=CAU' alt='Image'/>
       </DivIcone>
       <DivOptions >
         <About href="#" onClick={scrollToTop}>About</About>
-        <About href="#experience">Experience</About>
+        <About href="#experience" >Experience</About>
         <About href="#education">Education</About>
         <About href="#skills">Skills</About>
         <About href="#interest">Interest</About>

@@ -9,6 +9,10 @@ export const Container = styled.div`
   height: 100vh;
   background:#282832;
   border-right: 2px solid gray;
+
+  @media (max-width: 770px) {
+display:none;
+  }
 `;
 
 export const DivIcone = styled.div`
@@ -34,7 +38,7 @@ export const DivOptions = styled.div`
   }
 `;
 export const About = styled.a`
-  padding: 11px;
+  padding: 11px ;
   text-transform: uppercase;
   text-decoration: none;
 color: #6c757d;
