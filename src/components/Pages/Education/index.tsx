@@ -1,9 +1,10 @@
 import ContextExperience from '../../Experience/ContextExperience';
-import {Container,Swapper} from './styles'
+import {Container,Swapper,Title} from './styles'
 
 function Education() {
   return ( 
-    <Container>
+    <Container id='education'>
+      <Title>EDUCATION</Title>
     <Swapper>
       <ContextExperience
       title='UNIVERSITY OF COLORADO BOULDER'

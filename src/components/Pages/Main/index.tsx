@@ -7,7 +7,7 @@ import { Container,FirstName,SecondName,Email,Infos,Info,Text,DivIcons,Icons,Ico
 function Main() {
   return (
     
-    <Container>
+    <Container >
       <FirstName>CLARENCE  <SecondName>TAYLOR</SecondName></FirstName>
       
         <Infos>

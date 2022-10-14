@@ -2,7 +2,7 @@ import {Container,Title,DivCertificed,Mobile,Google,Th1,Th2,Th3,Th4,Th5,Check} f
 
 function Awards() {
   return ( 
-    <Container>
+    <Container id='awards'>
       <Title>AWARDS & CERTIFICATIONS</Title>
       <DivCertificed>
         <Google><Check/>Google Analytics Certified Developer</Google>

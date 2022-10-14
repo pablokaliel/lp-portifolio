@@ -2,7 +2,7 @@ import {Container,Title,React,Html,Less,Sass,Npm,Angular,Android,Java,SubTitle,D
 
 function Skills () {
   return ( 
-    <Container>
+    <Container id='skills'>
       <Title>SKILLS</Title>
       <SubTitle>PROGRAMMING LANGUAGES & TOOLS
 </SubTitle>

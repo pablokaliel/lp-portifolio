@@ -15,7 +15,7 @@ margin-right:10px;
 
 export const  Title = styled.h1`
 color:#00b37a;
-margin-top:2vh;
+margin-top:20vh;
 `;
 export const  DivCertificed = styled.ul`
 color:#e1e1e6;
