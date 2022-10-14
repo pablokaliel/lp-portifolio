@@ -16,7 +16,7 @@ export const DivContext = styled.div`
 max-width:700px;
 `;
 export const Title = styled.h1`
-color:#9AECDB;
+color:#22a6b3;
 margin-bottom:5px;
 `;
 export const SubTitle = styled.p`
