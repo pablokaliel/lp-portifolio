@@ -6,7 +6,7 @@ margin-bottom:39vh;
 `;
 
 export const DivTitle = styled.div `
-margin-top:39vh;
+margin-top:22vh;
 
 `;
 export const Title = styled.h1 `
