@@ -82,6 +82,10 @@ color: #6c757d;
   transition: all 0.3s;
 }
 
+@media (min-width: 770px) {
+  display:none;
+}
+
 `;
 export const GitHub = styled(BsGithub)`
 height:22px;
