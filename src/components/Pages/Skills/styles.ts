@@ -56,49 +56,49 @@ color:#6c757d;
 
 `;
 export const React = styled(DiReact)`
-color:#7ed6df;
+color:#22a6b3;
 
 height:48px;
 width:48px;
 `;
 export const Java = styled(DiJavascript)`
-color:#7ed6df;
+color:#22a6b3;
 
 height:48px;
 width:48px;
 `;
 export const Android = styled(DiAndroid)`
-color:#7ed6df;
+color:#22a6b3;
 
 height:48px;
 width:48px;
 `;
 export const Npm = styled(DiNpm)`
-color:#7ed6df;
+color:#22a6b3;
 
 height:48px;
 width:48px;
 `;
 export const Html = styled(DiGulp)`
-color:#7ed6df;
+color:#22a6b3;
 
 height:48px;
 width:48px;
 `;
 export const Angular = styled(DiAngularSimple)`
-color:#7ed6df;
+color:#22a6b3;
 
 height:48px;
 width:48px;
 `;
 export const Sass = styled(DiSass)`
-color:#7ed6df;
+color:#22a6b3;
 
 height:48px;
 width:48px;
 `;
 export const Less = styled(DiLess)`
-color:#7ed6df;
+color:#22a6b3;
 
 height:48px;
 width:48px;
