@@ -31,7 +31,7 @@ margin-top:7px;
 margin-bottom:3rem;
 `;
 export const Info = styled.p`
-color: #e1e1e6;
+color: #6c757d;
 
 `;
 export const Text = styled.p`
@@ -50,7 +50,7 @@ export const Icons = styled.ul`
   `;
 export const Icon = styled.a`
 padding:1rem;
-color: #e1e1e6;
+color: #6c757d;
 
 `;
 export const Github = styled(BsGithub)`
@@ -59,12 +59,11 @@ export const Github = styled(BsGithub)`
     color: #e1e1e6;
 :hover{
   cursor:pointer;
-  color:#00b37e;
+  color:#00b37a;
   transition: all 0.3s;
 }
 :active{
   margin :1px;
-  border-bottom: 1px solid #00b37e;
 }
 `;
 export const Instagram = styled(BsInstagram)`
@@ -73,12 +72,11 @@ export const Instagram = styled(BsInstagram)`
     color: #e1e1e6;
 :hover{
   cursor:pointer;
-  color:#00b37e;
+  color:#00b37a;
   transition: all 0.3s;
 }
 :active{
   margin :1px;
-  border-bottom: 1px solid #00b37e;
 }
 `;
 export const Linkedin = styled(BsLinkedin)`
@@ -87,12 +85,11 @@ export const Linkedin = styled(BsLinkedin)`
     color: #e1e1e6;
 :hover{
   cursor:pointer;
-  color:#00b37e;
+  color:#00b37a;
   transition: all 0.3s;
 }
 :active{
   margin :1px;
-  border-bottom: 1px solid #00b37e;
 }
 `;
 export const Facebook = styled(BsFacebook)`
@@ -101,11 +98,10 @@ export const Facebook = styled(BsFacebook)`
     color: #e1e1e6;
 :hover{
   cursor:pointer;
-  color:#00b37e;
+  color:#00b37a;
   transition: all 0.3s;
 }
 :active{
   margin :1px;
-  border-bottom: 1px solid #00b37e;
 }
 `;

@@ -5,7 +5,7 @@ margin-bottom:39vh;
 border-top:1px solid gray;
 `;
 export const Title = styled.h1`
-margin-top:39vh;
+margin-top:22vh;
 color:#00b37a;
 `;
 export const SecondContext = styled.p`

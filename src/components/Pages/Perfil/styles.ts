@@ -7,7 +7,7 @@ export const Container = styled.div`
   flex-direction: column;
   width: 17rem;
   height: 100vh;
-  background:#202024;
+  background:#282832;
   border-right: 2px solid gray;
 `;
 
@@ -37,7 +37,8 @@ export const About = styled.a`
   padding: 11px;
   text-transform: uppercase;
   text-decoration: none;
-color: #e1e1e6;
+color: #6c757d;
+font-weight:500;
 :hover{
   cursor:pointer;
   color:#00b37e;

@@ -8,7 +8,7 @@ export default createGlobalStyle`
         font-family: "Roboto"
     }
     html,#root,body{
-        background:#121214;
+        background:#19181F;
         width:100vw;
         height:100vh;
     }

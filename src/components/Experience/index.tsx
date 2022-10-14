@@ -5,7 +5,7 @@ function Experience() {
   return ( 
     <Container>
       <DivTitle>
-        <Title>Experience</Title>
+        <Title>EXPERIENCE</Title>
       </DivTitle>
       <DivContext>
         <ContextExperience

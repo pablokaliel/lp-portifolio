@@ -8,12 +8,13 @@ border-top: 1px solid gray;
 `;
 
 export const Title = styled.h1`
-margin-top:39vh;
+margin-top:22vh;
 color:#00b37a;
 `;
 export const SubTitle = styled.p`
 color:#e1e1e6;
 margin-top:15px;
+font-size:18px;
 `;
 export const DivIcons = styled.div`
 max-width:80%;
@@ -22,10 +23,10 @@ justify-content:space-evenly;
 margin: 30px 0px;
 `;
 
-export const WorkFlow = styled.h1`
+export const WorkFlow = styled.p`
 color:#e1e1e6;
-color:#00b37a;
 margin-bottom:20px;
+font-size:18px;
 `;
 export const DivCertificed = styled.ul`
 display:flex;
@@ -33,65 +34,65 @@ flex-direction: column;
 list-style:none;
 `;
 export const Mobile = styled.li`
-color:#e1e1e6;
+color:#6c757d;
 margin-bottom:10px;
 `;
 export const Testing = styled.li`
-color:#e1e1e6;
+color:#6c757d;
 margin-bottom:10px;
 `;
 export const Teams = styled.li`
-color:#e1e1e6;
+color:#6c757d;
 margin-bottom:10px;
 `;
 export const Development = styled.li`
-color:#e1e1e6;
+color:#6c757d;
 
 `;
 export const React = styled(DiReact)`
-color:#e1e1e6;
+color:#7ed6df;
 
 height:48px;
 width:48px;
 `;
 export const Java = styled(DiJavascript)`
-color:#e1e1e6;
+color:#7ed6df;
 
 height:48px;
 width:48px;
 `;
 export const Android = styled(DiAndroid)`
-color:#e1e1e6;
+color:#7ed6df;
 
 height:48px;
 width:48px;
 `;
 export const Npm = styled(DiNpm)`
-color:#e1e1e6;
+color:#7ed6df;
 
 height:48px;
 width:48px;
 `;
 export const Html = styled(DiGulp)`
-color:#e1e1e6;
+color:#7ed6df;
 
 height:48px;
 width:48px;
 `;
 export const Angular = styled(DiAngularSimple)`
-color:#e1e1e6;
+color:#7ed6df;
 
 height:48px;
 width:48px;
 `;
 export const Sass = styled(DiSass)`
-color:#e1e1e6;
+color:#7ed6df;
 
 height:48px;
 width:48px;
 `;
 export const Less = styled(DiLess)`
-color:#e1e1e6;
+color:#7ed6df;
 
 height:48px;
 width:48px;

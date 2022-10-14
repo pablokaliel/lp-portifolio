@@ -6,6 +6,7 @@ import Skills from "../Skills";
 import { Container,FirstName,SecondName,Email,Infos,Info,Text,DivIcons,Icons,Icon,Github,Instagram,Linkedin,Facebook } from "./styles";
 function Main() {
   return (
+    
     <Container>
       <FirstName>CLARENCE  <SecondName>TAYLOR</SecondName></FirstName>
       
@@ -34,6 +35,7 @@ function Main() {
       <Interests/>
       <Awards/>
     </Container>
+    
   );
 }
 
