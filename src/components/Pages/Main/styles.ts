@@ -1,128 +1,125 @@
-import styled from 'styled-components';
-import {BsGithub, BsFacebook, BsLinkedin,BsInstagram} from 'react-icons/bs'
+import styled from "styled-components";
+import { BsGithub, BsFacebook, BsLinkedin, BsInstagram } from "react-icons/bs";
 
 export const Container = styled.div`
-  margin-left:300px;
+  margin-left: 300px;
   display: flex;
   flex-direction: column;
-  margin-top:70px;
-  position:absolute;
-  justify-content:center;
-  margin-top:240px;
+  margin-top: 70px;
+  position: absolute;
+  justify-content: center;
+  margin-top: 240px;
   @media (max-width: 770px) {
-   margin-left:0px;
-   margin-top:150px;
-   justify-content:center;
-   align-items:center;
-}
+    margin-left: 0px;
+    margin-top: 150px;
+    justify-content: center;
+    align-items: center;
+  }
 `;
 
 export const FirstName = styled.p`
-color: #e1e1e6;
-font-size: calc(1.1rem + 3.4vw);
-font-weight:bold;
+  color: #e1e1e6;
+  font-size: calc(1.1rem + 3.4vw);
+  font-weight: bold;
 `;
 export const SecondName = styled.span`
-color:#00b37e;
-font-size: calc(1.1rem + 3.4vw);
-font-weight:bold;
+  color: #00b37e;
+  font-size: calc(1.1rem + 3.4vw);
+  font-weight: bold;
 `;
 export const Email = styled.a`
-color:#00b37e;
-margin-left:12px;
-@media (max-width: 770px) {
-  margin-left:0;
-}
+  color: #00b37e;
+  margin-left: 12px;
+  @media (max-width: 770px) {
+    margin-left: 0;
+  }
 `;
 export const Infos = styled.ul`
-display:flex;
-margin-top:7px;
-margin-bottom:3rem;
-@media (max-width: 770px) {
-   justify-content:center;
-   padding: 0 30px;
-  flex-direction:column;
-}
+  display: flex;
+  margin-top: 7px;
+  margin-bottom: 3rem;
+  @media (max-width: 770px) {
+    justify-content: center;
+    padding: 0 30px;
+    flex-direction: column;
+  }
 `;
 export const Info = styled.p`
-color: #6c757d;
-
+  color: #6c757d;
 `;
 export const Text = styled.p`
-color: #e1e1e6;
-font-size:1.15rem;
-margin-bottom:3rem;
+  color: #e1e1e6;
+  font-size: 1.15rem;
+  margin-bottom: 3rem;
 
-@media (max-width: 770px) {
-   padding: 0 30px;
-}
+  @media (max-width: 770px) {
+    padding: 0 30px;
+  }
 `;
 export const DivIcons = styled.div`
-
-margin-bottom:39vh;
+  margin-bottom: 39vh;
 `;
 export const Icons = styled.ul`
-  display:flex;
+  display: flex;
   list-style: none;
-  `;
+`;
 export const Icon = styled.a`
-padding:1rem;
-color: #6c757d;
-
+  padding: 1rem;
+  color: #6c757d;
 `;
 export const Github = styled(BsGithub)`
-    height: 3.5rem;
-    width: 3.5rem;
-    color: #e1e1e6;
-:hover{
-  cursor:pointer;
-  color:#00b37a;
-  transition: all 0.3s;
-}
-@media (max-width: 770px) {
-   height:2.5rem;
-   width:2.5rem;
-}
+  height: 3.5rem;
+  width: 3.5rem;
+  color: #e1e1e6;
+  :hover {
+    cursor: pointer;
+    color: #00b37a;
+    transition: all 0.3s;
+  }
+  @media (max-width: 770px) {
+    height: 2.5rem;
+    width: 2.5rem;
+  }
 `;
 export const Instagram = styled(BsInstagram)`
-    height: 3.5rem;
-    width: 3.5rem;
-    color: #e1e1e6;
-:hover{
-  cursor:pointer;
-  color:#00b37a;
-  transition: all 0.3s;
-}
-@media (max-width: 770px) {
-   height:2.5rem;
-   width:2.5rem;
-}
+  height: 3.5rem;
+  width: 3.5rem;
+  color: #e1e1e6;
+  :hover {
+    cursor: pointer;
+    color: #00b37a;
+    transition: all 0.3s;
+  }
+  @media (max-width: 770px) {
+    height: 2.5rem;
+    width: 2.5rem;
+  }
 `;
 export const Linkedin = styled(BsLinkedin)`
-    height: 3.5rem;
-    width: 3.5rem;
-    color: #e1e1e6;
-:hover{
-  cursor:pointer;
-  color:#00b37a;
-  transition: all 0.3s;
-}
-@media (max-width: 770px) {
-   height:2.5rem;
-   width:2.5rem;
-}
+  height: 3.5rem;
+  width: 3.5rem;
+  color: #e1e1e6;
+  :hover {
+    cursor: pointer;
+    color: #00b37a;
+    transition: all 0.3s;
+  }
+  @media (max-width: 770px) {
+    height: 2.5rem;
+    width: 2.5rem;
+  }
 `;
 export const Facebook = styled(BsFacebook)`
-    height: 3.5rem;
-    width: 3.5rem;
-    color: #e1e1e6;
-:hover{
-  cursor:pointer;
-  color:#00b37a;
-  transition: all 0.3s;
-}
-@media (max-width: 770px) {
-   height:2.5rem;
-   width:2.5rem;
-}
+  height: 3.5rem;
+  width: 3.5rem;
+  color: #e1e1e6;
+  :hover {
+    cursor: pointer;
+    color: #00b37a;
+    transition: all 0.3s;
+  }
+  @media (max-width: 770px) {
+    height: 2.5rem;
+    width: 2.5rem;
+  }
 `;

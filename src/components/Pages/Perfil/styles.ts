@@ -7,11 +7,11 @@ export const Container = styled.div`
   flex-direction: column;
   width: 17rem;
   height: 100vh;
-  background:#282832;
+  background: #282832;
   border-right: 2px solid gray;
 
   @media (max-width: 770px) {
-display:none;
+    display: none;
   }
 `;
 
@@ -21,9 +21,9 @@ export const DivIcone = styled.div`
   width: 208px;
   margin: 0 auto;
   margin-top: 220px;
-  border-radius:50%;
+  border-radius: 50%;
   border: 5px solid #00b37e;
-  padding:2px;
+  padding: 2px;
 `;
 export const ImagePerfil = styled.img`
   border-radius: 50%;
@@ -38,35 +38,35 @@ export const DivOptions = styled.div`
   }
 `;
 export const About = styled.a`
-  padding: 11px ;
+  padding: 11px;
   text-transform: uppercase;
   text-decoration: none;
-color: #6c757d;
-font-weight:500;
-:hover{
-  cursor:pointer;
-  color:#00b37e;
-  transition: all 0.3s;
-}
-:focus{
-  margin :1px;
-  border-bottom: 1px solid #00b37e;
-  color:#00b37e;
-}
+  color: #6c757d;
+  font-weight: 500;
+  :hover {
+    cursor: pointer;
+    color: #00b37e;
+    transition: all 0.3s;
+  }
+  :focus {
+    margin: 1px;
+    border-bottom: 1px solid #00b37e;
+    color: #00b37e;
+  }
 `;
 export const About1 = styled.a`
   margin-bottom: 7px;
   text-transform: uppercase;
   margin-top: 20px;
   text-decoration: none;
-color: #e1e1e6;
-:hover{
-  cursor:pointer;
-  color:#00b37e;
-  transition: all 0.3s;
-}
-:active{
-  margin :1px;
-  border-bottom: 1px solid #00b37e;
-}
+  color: #e1e1e6;
+  :hover {
+    cursor: pointer;
+    color: #00b37e;
+    transition: all 0.3s;
+  }
+  :active {
+    margin: 1px;
+    border-bottom: 1px solid #00b37e;
+  }
 `;
