@@ -40,7 +40,7 @@ function Header({toggleTheme}:Props) {
         width={30}
         checkedIcon={false}
         uncheckedIcon={false}
-        handleDiameter={10}
+        handleDiameter={20}
         offColor="#6c757d"
         onColor="#fff"
         offHandleColor="#fff"
