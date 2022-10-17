@@ -11,14 +11,14 @@ export const Container = styled.div`
 `;
 export const Title = styled.h1`
   margin-top: 22vh;
-  color: #00b37a;
+  color: ${ props => props.theme.colors.namepage};
 `;
 export const SecondContext = styled.p`
-  color: #e1e1e6;
+  color: ${ props => props.theme.colors.text};
   margin-bottom: 16px;
 `;
 export const FirstContext = styled.p`
-  color: #e1e1e6;
+  color: ${ props => props.theme.colors.text};
   margin-bottom: 20px;
   margin-top: 40px;
 `;

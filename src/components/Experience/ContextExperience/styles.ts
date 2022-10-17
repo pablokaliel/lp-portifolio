@@ -16,18 +16,18 @@ export const DivContext = styled.div`
   max-width: 700px;
 `;
 export const Title = styled.h1`
-  color: #22a6b3;
+  color: ${ props => props.theme.colors.textInfo};
   margin-bottom: 5px;
 `;
 export const SubTitle = styled.p`
   margin-bottom: 20px;
-  color: #6c757d;
+  color: ${ props => props.theme.colors.subTitle};
 `;
 export const Context = styled.p`
-  color: #e1e1e6;
+  color: ${ props => props.theme.colors.text};
 `;
 export const Data = styled.p`
-  color: #22a6b3;
+  color: ${ props => props.theme.colors.textInfo};
   font-size: 13px;
 `;
 export const DivData = styled.div`

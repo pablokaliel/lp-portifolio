@@ -1,3 +1,4 @@
+import ReactSwitch from "react-switch";
 import {
   Container,
   DivGit,
@@ -10,8 +11,18 @@ import {
   GitHub,
   Hamburger,
 } from "./styles";
+import Switch from 'react-switch'
+import { ThemeContext } from "styled-components";
+import { useContext } from "react";
 
-function Header() {
+interface Props{
+  toggleTheme(): void;
+}
+
+function Header({toggleTheme}:Props) {
+
+  const {colors, title} = useContext(ThemeContext);
+
   return (
     <Container>
       <DivGit>
@@ -23,8 +34,16 @@ function Header() {
         <Title>Portifolio</Title>
       </DivTitle>
       <DivDesktopOrMobile>
-        <Computer />
-        <Mobile />
+        <Switch onChange={toggleTheme}
+        checked={title === 'dark'}
+        checkedIcon={false}
+        uncheckedIcon={false}
+        height={10}
+        width={40}
+        handleDiameter={20}
+        offColor="#6c878d"
+        onColor="#6c757d"
+        />
         <Hamburger />
       </DivDesktopOrMobile>
     </Container>

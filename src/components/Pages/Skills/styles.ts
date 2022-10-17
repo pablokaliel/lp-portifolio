@@ -22,10 +22,10 @@ export const Container = styled.div`
 
 export const Title = styled.h1`
   margin-top: 22vh;
-  color: #00b37a;
+  color: ${ props => props.theme.colors.namepage};
 `;
 export const SubTitle = styled.p`
-  color: #e1e1e6;
+  color: ${ props => props.theme.colors.text};
   margin-top: 15px;
   font-size: 18px;
 `;
@@ -38,7 +38,7 @@ export const DivIcons = styled.div`
 `;
 
 export const WorkFlow = styled.p`
-  color: #e1e1e6;
+  color: ${ props => props.theme.colors.text};
   margin-bottom: 20px;
   font-size: 18px;
 `;
@@ -48,64 +48,64 @@ export const DivCertificed = styled.ul`
   list-style: none;
 `;
 export const Mobile = styled.li`
-  color: #6c757d;
+  color: ${ props => props.theme.colors.subTitle};
   margin-bottom: 10px;
 `;
 export const Testing = styled.li`
-  color: #6c757d;
+  color: ${ props => props.theme.colors.subTitle};
   margin-bottom: 10px;
 `;
 export const Teams = styled.li`
-  color: #6c757d;
+  color: ${ props => props.theme.colors.subTitle};
   margin-bottom: 10px;
 `;
 export const Development = styled.li`
-  color: #6c757d;
+  color: ${ props => props.theme.colors.subTitle};
 `;
 export const React = styled(DiReact)`
-  color: #22a6b3;
+  color: ${ props => props.theme.colors.textInfo};
 
   height: 48px;
   width: 48px;
 `;
 export const Java = styled(DiJavascript)`
-  color: #22a6b3;
+  color: ${ props => props.theme.colors.textInfo};
 
   height: 48px;
   width: 48px;
 `;
 export const Android = styled(DiAndroid)`
-  color: #22a6b3;
+  color: ${ props => props.theme.colors.textInfo};
 
   height: 48px;
   width: 48px;
 `;
 export const Npm = styled(DiNpm)`
-  color: #22a6b3;
+  color: ${ props => props.theme.colors.textInfo};
 
   height: 48px;
   width: 48px;
 `;
 export const Html = styled(DiGulp)`
-  color: #22a6b3;
+  color: ${ props => props.theme.colors.textInfo};
 
   height: 48px;
   width: 48px;
 `;
 export const Angular = styled(DiAngularSimple)`
-  color: #22a6b3;
+  color: ${ props => props.theme.colors.textInfo};
 
   height: 48px;
   width: 48px;
 `;
 export const Sass = styled(DiSass)`
-  color: #22a6b3;
+  color: ${ props => props.theme.colors.textInfo};
 
   height: 48px;
   width: 48px;
 `;
 export const Less = styled(DiLess)`
-  color: #22a6b3;
+  color: ${ props => props.theme.colors.textInfo};
 
   height: 48px;
   width: 48px;

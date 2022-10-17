@@ -18,17 +18,17 @@ export const Container = styled.div`
 `;
 
 export const FirstName = styled.p`
-  color: #e1e1e6;
+  color: ${ props => props.theme.colors.text};
   font-size: calc(1.1rem + 3.4vw);
   font-weight: bold;
 `;
 export const SecondName = styled.span`
-  color: #00b37e;
+  color: ${ props => props.theme.colors.namepage};
   font-size: calc(1.1rem + 3.4vw);
   font-weight: bold;
 `;
 export const Email = styled.a`
-  color: #00b37e;
+  color: ${ props => props.theme.colors.namepage};
   margin-left: 12px;
   @media (max-width: 770px) {
     margin-left: 0;
@@ -45,10 +45,10 @@ export const Infos = styled.ul`
   }
 `;
 export const Info = styled.p`
-  color: #6c757d;
+  color: ${ props => props.theme.colors.subTitle};
 `;
 export const Text = styled.p`
-  color: #e1e1e6;
+  color: ${ props => props.theme.colors.text};
   font-size: 1.15rem;
   margin-bottom: 3rem;
 
@@ -65,15 +65,15 @@ export const Icons = styled.ul`
 `;
 export const Icon = styled.a`
   padding: 1rem;
-  color: #6c757d;
+  color: ${ props => props.theme.colors.textInfo};
 `;
 export const Github = styled(BsGithub)`
   height: 3.5rem;
   width: 3.5rem;
-  color: #e1e1e6;
+  color: ${ props => props.theme.colors.text};
   :hover {
     cursor: pointer;
-    color: #00b37a;
+    color: ${ props => props.theme.colors.namepage};
     transition: all 0.3s;
   }
   @media (max-width: 770px) {
@@ -84,10 +84,10 @@ export const Github = styled(BsGithub)`
 export const Instagram = styled(BsInstagram)`
   height: 3.5rem;
   width: 3.5rem;
-  color: #e1e1e6;
+  color: ${ props => props.theme.colors.text};
   :hover {
     cursor: pointer;
-    color: #00b37a;
+    color: ${ props => props.theme.colors.namepage};
     transition: all 0.3s;
   }
   @media (max-width: 770px) {
@@ -98,10 +98,10 @@ export const Instagram = styled(BsInstagram)`
 export const Linkedin = styled(BsLinkedin)`
   height: 3.5rem;
   width: 3.5rem;
-  color: #e1e1e6;
+  color: ${ props => props.theme.colors.text};
   :hover {
     cursor: pointer;
-    color: #00b37a;
+    color: ${ props => props.theme.colors.namepage};
     transition: all 0.3s;
   }
   @media (max-width: 770px) {
@@ -112,10 +112,10 @@ export const Linkedin = styled(BsLinkedin)`
 export const Facebook = styled(BsFacebook)`
   height: 3.5rem;
   width: 3.5rem;
-  color: #e1e1e6;
+  color: ${ props => props.theme.colors.text};
   :hover {
     cursor: pointer;
-    color: #00b37a;
+    color: ${ props => props.theme.colors.namepage};
     transition: all 0.3s;
   }
   @media (max-width: 770px) {

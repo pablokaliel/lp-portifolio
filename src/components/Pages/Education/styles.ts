@@ -12,6 +12,6 @@ export const Swapper = styled.div`
 `;
 export const Title = styled.h1`
   margin-top: 22vh;
-  color: #00b37a;
+  color: ${ props => props.theme.colors.namepage};
   font-size: 34px;
 `;
