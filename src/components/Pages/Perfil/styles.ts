@@ -50,8 +50,8 @@ export const About = styled.a`
   }
   :focus {
     margin: 1px;
-    border-bottom: 1px solid ${ props => props.theme.colors.namepage2};
-    color: ${ props => props.theme.colors.namepage};
+    border-bottom: 1px solid ${ props => props.theme.colors.backgroundicone};
+    color: ${ props => props.theme.colors.backgroundicone};
   }
 `;
 export const About1 = styled.a`
