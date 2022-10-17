@@ -37,7 +37,9 @@ export const DivTitle = styled.div`
 export const Title = styled.h1`
   color: ${(props) => props.theme.colors.about};
 `;
-export const DivDesktopOrMobile = styled.div``;
+export const DivDesktopOrMobile = styled.div`
+
+`;
 export const Computer = styled(BsSunFill)`
   color: #f00;
   :hover {
@@ -64,7 +66,8 @@ export const Mobile = styled(BsMoonFill)`
 export const Hamburger = styled(GiHamburgerMenu)`
   height: 20px;
   width: 20px;
-  margin-right: 18px;
+  margin-right: 10px;
+  margin: 0px 8px;
   color: ${(props) => props.theme.colors.subTitle};
   :hover {
     cursor: pointer;

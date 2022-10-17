@@ -33,7 +33,6 @@ function Header({toggleTheme}:Props) {
       <DivTitle>
         <Title>Portifolio</Title>
       </DivTitle>
-      <DivDesktopOrMobile>
         <Switch onChange={toggleTheme}
         checked={title === 'dark'}
         height={10}
@@ -46,6 +45,7 @@ function Header({toggleTheme}:Props) {
         offHandleColor="#fff"
         onHandleColor="#6c757d"
         />
+      <DivDesktopOrMobile>
         <Hamburger />
       </DivDesktopOrMobile>
     </Container>
