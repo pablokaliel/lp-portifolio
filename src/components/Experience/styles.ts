@@ -14,7 +14,7 @@ export const DivTitle = styled.div`
   }
 `;
 export const Title = styled.h1`
-  color: ${ props => props.theme.colors.namepage};
+  color: ${(props) => props.theme.colors.namepage};
 `;
 export const DivContext = styled.div`
   margin-top: 30px;

@@ -5,6 +5,7 @@ export default {
     namepage2: '#00b37a',
     namepage: '#00b37a',
     backgroundicone: '#00b37a',
+    icon: '#ca7d60',
     background : '#000713',
     backgroundperfil:'#19181F',
     text: "#e1e1e9",

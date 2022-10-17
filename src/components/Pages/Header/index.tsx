@@ -36,13 +36,15 @@ function Header({toggleTheme}:Props) {
       <DivDesktopOrMobile>
         <Switch onChange={toggleTheme}
         checked={title === 'dark'}
+        height={10}
+        width={30}
         checkedIcon={false}
         uncheckedIcon={false}
-        height={10}
-        width={40}
-        handleDiameter={20}
-        offColor="#6c878d"
-        onColor="#6c757d"
+        handleDiameter={10}
+        offColor="#6c757d"
+        onColor="#fff"
+        offHandleColor="#fff"
+        onHandleColor="#6c757d"
         />
         <Hamburger />
       </DivDesktopOrMobile>

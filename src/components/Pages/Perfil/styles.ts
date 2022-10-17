@@ -7,7 +7,7 @@ export const Container = styled.div`
   flex-direction: column;
   width: 17rem;
   height: 100vh;
-  background: ${ props => props.theme.colors.backgroundperfil};
+  background: ${(props) => props.theme.colors.backgroundperfil};
   border-right: 2px solid gray;
 
   @media (max-width: 770px) {
@@ -22,7 +22,7 @@ export const DivIcone = styled.div`
   margin: 0 auto;
   margin-top: 220px;
   border-radius: 50%;
-  border: 5px solid ${ props => props.theme.colors.backgroundicone};
+  border: 5px solid ${(props) => props.theme.colors.backgroundicone};
   padding: 2px;
 `;
 export const ImagePerfil = styled.img`
@@ -41,17 +41,17 @@ export const About = styled.a`
   padding: 11px;
   text-transform: uppercase;
   text-decoration: none;
-  color: ${ props => props.theme.colors.about};
+  color: ${(props) => props.theme.colors.about};
   font-weight: 500;
   :hover {
     cursor: pointer;
-    color: ${ props => props.theme.colors.namepage2};
+    color: ${(props) => props.theme.colors.namepage2};
     transition: all 0.3s;
   }
   :focus {
     margin: 1px;
-    border-bottom: 1px solid ${ props => props.theme.colors.backgroundicone};
-    color: ${ props => props.theme.colors.backgroundicone};
+    border-bottom: 1px solid ${(props) => props.theme.colors.backgroundicone};
+    color: ${(props) => props.theme.colors.backgroundicone};
   }
 `;
 export const About1 = styled.a`
@@ -59,14 +59,14 @@ export const About1 = styled.a`
   text-transform: uppercase;
   margin-top: 20px;
   text-decoration: none;
-  color: ${ props => props.theme.colors.text};
+  color: ${(props) => props.theme.colors.text};
   :hover {
     cursor: pointer;
-    color: ${ props => props.theme.colors.namepage};
+    color: ${(props) => props.theme.colors.namepage};
     transition: all 0.3s;
   }
   :active {
     margin: 1px;
-    border-bottom: 1px solid ${ props => props.theme.colors.namepage};
+    border-bottom: 1px solid ${(props) => props.theme.colors.namepage};
   }
 `;

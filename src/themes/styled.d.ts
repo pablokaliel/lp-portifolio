@@ -10,6 +10,7 @@ declare module 'styled-components' {
       backgroundicone : string,
       background : string,
       text: string,
+      icon: string,
       textInfo: string,
       subTitle:string,
       backgroundperfil: string,

@@ -4,6 +4,7 @@ export default {
   colors:{
     namepage2: '#000',
     namepage: '#bd5d38',
+    icon : '#00b37a',
     background : '#f1f2f9',
     backgroundicone : '#ca7d60',
     backgroundperfil:'#bd5d38',

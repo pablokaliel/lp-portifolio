@@ -20,39 +20,39 @@ export const Check = styled(FaTrophy)`
 `;
 
 export const Title = styled.h1`
-  color: ${ props => props.theme.colors.namepage};
+  color: ${(props) => props.theme.colors.namepage};
   margin-top: 20vh;
 `;
 export const DivCertificed = styled.ul`
-  color: ${ props => props.theme.colors.text};
+  color: ${(props) => props.theme.colors.text};
   margin-top: 70px;
   list-style: none;
 `;
 export const Mobile = styled.li`
-  color: ${ props => props.theme.colors.text};
+  color: ${(props) => props.theme.colors.text};
   margin-top: 10px;
 `;
 export const Google = styled.li`
-  color: ${ props => props.theme.colors.text};
+  color: ${(props) => props.theme.colors.text};
   margin-top: 10px;
 `;
 export const Th1 = styled.li`
-  color: ${ props => props.theme.colors.text};
+  color: ${(props) => props.theme.colors.text};
   margin-top: 10px;
 `;
 export const Th2 = styled.li`
-  color: ${ props => props.theme.colors.text};
+  color: ${(props) => props.theme.colors.text};
   margin-top: 10px;
 `;
 export const Th3 = styled.li`
-  color: ${ props => props.theme.colors.text};
+  color: ${(props) => props.theme.colors.text};
   margin-top: 10px;
 `;
 export const Th4 = styled.li`
-  color: ${ props => props.theme.colors.text};
+  color: ${(props) => props.theme.colors.text};
   margin-top: 10px;
 `;
 export const Th5 = styled.li`
-  color: ${ props => props.theme.colors.text};
+  color: ${(props) => props.theme.colors.text};
   margin-top: 10px;
 `;
