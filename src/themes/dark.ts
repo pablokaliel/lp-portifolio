@@ -12,9 +12,12 @@ export default {
     textInfo: "#22a6b3",
     subTitle:"#6c757d",
     about:"#6c757d",
-    backgroundHamburguer:'#010b1a',
-    shadowOne:'#071938',
-    shadowTwo:'#242d3e'
+    backgroundHamburguer:'##19181f',
+    shadowOne:'#2f2d38',
+    shadowTwo:'#52505a'
   },
 }
+
+
+
 
