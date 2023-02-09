@@ -1,4 +1,3 @@
-import ReactSwitch from "react-switch";
 import {
   Container,
   DivGit,
@@ -6,23 +5,20 @@ import {
   DivTitle,
   Title,
   DivDesktopOrMobile,
-  Computer,
-  Mobile,
   GitHub,
-  Hamburger,
 } from "./styles";
-import Switch from 'react-switch'
+
+import Switch from "react-switch";
 import { ThemeContext } from "styled-components";
 import { useContext } from "react";
 import HeaderEasyBank from "../../HeaderEasyBank";
 
-interface Props{
+interface Props {
   toggleTheme(): void;
 }
 
-function Header({toggleTheme}:Props) {
-
-  const {colors, title} = useContext(ThemeContext);
+function Header({ toggleTheme }: Props) {
+  const { colors, title } = useContext(ThemeContext);
 
   return (
     <Container>
@@ -34,8 +30,9 @@ function Header({toggleTheme}:Props) {
       <DivTitle>
         <Title>Portifolio</Title>
       </DivTitle>
-        <Switch onChange={toggleTheme}
-        checked={title === 'dark'}
+      <Switch
+        onChange={toggleTheme}
+        checked={title === "dark"}
         height={10}
         width={30}
         checkedIcon={false}
@@ -45,9 +42,9 @@ function Header({toggleTheme}:Props) {
         onColor="#fff"
         offHandleColor="#fff"
         onHandleColor="#6c757d"
-        />
+      />
       <DivDesktopOrMobile>
-       <HeaderEasyBank/>
+        <HeaderEasyBank />
       </DivDesktopOrMobile>
     </Container>
   );

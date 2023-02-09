@@ -54,19 +54,3 @@ export const About = styled.a`
     color: ${(props) => props.theme.colors.backgroundicone};
   }
 `;
-export const About1 = styled.a`
-  margin-bottom: 7px;
-  text-transform: uppercase;
-  margin-top: 20px;
-  text-decoration: none;
-  color: ${(props) => props.theme.colors.text};
-  :hover {
-    cursor: pointer;
-    color: ${(props) => props.theme.colors.namepage};
-    transition: all 0.3s;
-  }
-  :active {
-    margin: 1px;
-    border-bottom: 1px solid ${(props) => props.theme.colors.namepage};
-  }
-`;

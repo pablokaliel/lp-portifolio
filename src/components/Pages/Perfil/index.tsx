@@ -1,12 +1,4 @@
-import { useState } from "react";
-import {
-  Container,
-  DivIcone,
-  ImagePerfil,
-  DivOptions,
-  About,
-  About1,
-} from "./styles";
+import { Container, DivIcone, ImagePerfil, DivOptions, About } from "./styles";
 
 function Perfil() {
   const scrollToTop = () => {

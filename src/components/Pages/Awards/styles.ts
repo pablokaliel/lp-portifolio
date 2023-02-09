@@ -40,19 +40,3 @@ export const Th1 = styled.li`
   color: ${(props) => props.theme.colors.text};
   margin-top: 10px;
 `;
-export const Th2 = styled.li`
-  color: ${(props) => props.theme.colors.text};
-  margin-top: 10px;
-`;
-export const Th3 = styled.li`
-  color: ${(props) => props.theme.colors.text};
-  margin-top: 10px;
-`;
-export const Th4 = styled.li`
-  color: ${(props) => props.theme.colors.text};
-  margin-top: 10px;
-`;
-export const Th5 = styled.li`
-  color: ${(props) => props.theme.colors.text};
-  margin-top: 10px;
-`;

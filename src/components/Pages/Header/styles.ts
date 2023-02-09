@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import { BsGithub, BsSunFill, BsMoonFill } from "react-icons/bs";
-import { GiHamburgerMenu } from "react-icons/gi";
+import { BsGithub } from "react-icons/bs";
+
 
 export const Container = styled.div`
   display: flex;
@@ -37,48 +37,8 @@ export const DivTitle = styled.div`
 export const Title = styled.h1`
   color: ${(props) => props.theme.colors.about};
 `;
-export const DivDesktopOrMobile = styled.div`
+export const DivDesktopOrMobile = styled.div``;
 
-`;
-export const Computer = styled(BsSunFill)`
-  color: #f00;
-  :hover {
-    cursor: pointer;
-    color: #bd5d38;
-    transition: all 0.3s;
-  }
-  @media (max-width: 770px) {
-    display: none;
-  }
-`;
-export const Mobile = styled(BsMoonFill)`
-  color: #f00;
-  :hover {
-    cursor: pointer;
-    color: #00b37e;
-    transition: all 0.3s;
-  }
-
-  @media (max-width: 770px) {
-    display: none;
-  }
-`;
-export const Hamburger = styled(GiHamburgerMenu)`
-  height: 20px;
-  width: 20px;
-  margin-right: 10px;
-  margin: 0px 8px;
-  color: ${(props) => props.theme.colors.subTitle};
-  :hover {
-    cursor: pointer;
-    color: ${(props) => props.theme.colors.namepage};
-    transition: all 0.3s;
-  }
-
-  @media (min-width: 770px) {
-    display: none;
-  }
-`;
 export const GitHub = styled(BsGithub)`
   height: 22px;
   width: 22px;

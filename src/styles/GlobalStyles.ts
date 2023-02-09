@@ -8,7 +8,7 @@ export default createGlobalStyle`
         font-family: "Poppins"
     }
     html,#root,body{
-        background: ${ props => props.theme.colors.background};
+        background: ${(props) => props.theme.colors.background};
         width:100vw;
         height:100vh;
     }

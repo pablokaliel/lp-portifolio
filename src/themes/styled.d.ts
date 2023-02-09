@@ -1,24 +1,23 @@
-import 'styled-components'
+import "styled-components";
 
-declare module 'styled-components' {
+declare module "styled-components" {
   export interface DefaultTheme {
-    title: string,
+    title: string;
 
-    colors:{
-      namepage2: string,
-      namepage: string,
-      backgroundicone : string,
-      background : string,
-      text: string,
-      icon: string,
-      textInfo: string,
-      subTitle:string,
-      backgroundperfil: string,
-      about: string,
-      backgroundHamburguer: string,
-      shadowOne:string,
-      shadowTwo:string
-    },
+    colors: {
+      namepage2: string;
+      namepage: string;
+      backgroundicone: string;
+      background: string;
+      text: string;
+      icon: string;
+      textInfo: string;
+      subTitle: string;
+      backgroundperfil: string;
+      about: string;
+      backgroundHamburguer: string;
+      shadowOne: string;
+      shadowTwo: string;
+    };
   }
 }
-

@@ -1,7 +1,5 @@
 import styled from "styled-components";
 
-
-
 export const NavItem = styled.li`
   position: relative;
 
@@ -34,7 +32,7 @@ export const NavItem = styled.li`
 
 export const Link = styled.a`
   text-decoration: none;
-  color: ${props => props.theme.colors.namepage};
+  color: ${(props) => props.theme.colors.namepage};
   transition: all 0.5s;
 
   &:hover {
@@ -42,7 +40,6 @@ export const Link = styled.a`
   }
 
   @media (max-width: 770px) {
-    color: ${props => props.theme.colors.namepage};
-
+    color: ${(props) => props.theme.colors.namepage};
   }
 `;

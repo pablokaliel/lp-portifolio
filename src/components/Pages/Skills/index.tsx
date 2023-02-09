@@ -13,10 +13,7 @@ import {
   DivIcons,
   WorkFlow,
   DivCertificed,
-  Mobile,
-  Testing,
   Teams,
-  Development,
   Check,
 } from "./styles";
 
@@ -37,22 +34,22 @@ function Skills() {
       </DivIcons>
       <WorkFlow>WORKFLOW</WorkFlow>
       <DivCertificed>
-        <Mobile>
+        <Teams>
           <Check />
           Mobile-First, Responsive Design
-        </Mobile>
-        <Testing>
+        </Teams>
+        <Teams>
           <Check />
           Cross Browser Testing & Debuggin
-        </Testing>
+        </Teams>
         <Teams>
           <Check />
           Cross Functional Teams
         </Teams>
-        <Development>
+        <Teams>
           <Check />
           Agile Development & Scrum
-        </Development>
+        </Teams>
       </DivCertificed>
     </Container>
   );

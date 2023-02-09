@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { AiFillHtml5, AiOutlineCheck } from "react-icons/ai";
+import {AiOutlineCheck } from "react-icons/ai";
 import {
   DiJavascript,
   DiReact,
@@ -47,21 +47,12 @@ export const DivCertificed = styled.ul`
   flex-direction: column;
   list-style: none;
 `;
-export const Mobile = styled.li`
-  color: ${(props) => props.theme.colors.subTitle};
-  margin-bottom: 10px;
-`;
-export const Testing = styled.li`
-  color: ${(props) => props.theme.colors.subTitle};
-  margin-bottom: 10px;
-`;
+
 export const Teams = styled.li`
   color: ${(props) => props.theme.colors.subTitle};
   margin-bottom: 10px;
 `;
-export const Development = styled.li`
-  color: ${(props) => props.theme.colors.subTitle};
-`;
+
 export const React = styled(DiReact)`
   color: ${(props) => props.theme.colors.textInfo};
 
