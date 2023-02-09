@@ -14,6 +14,7 @@ import {
 import Switch from 'react-switch'
 import { ThemeContext } from "styled-components";
 import { useContext } from "react";
+import HeaderEasyBank from "../../HeaderEasyBank";
 
 interface Props{
   toggleTheme(): void;
@@ -46,7 +47,7 @@ function Header({toggleTheme}:Props) {
         onHandleColor="#6c757d"
         />
       <DivDesktopOrMobile>
-        <Hamburger />
+       <HeaderEasyBank/>
       </DivDesktopOrMobile>
     </Container>
   );

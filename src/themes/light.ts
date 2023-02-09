@@ -11,6 +11,10 @@ export default {
     text: "#333",
     textInfo: "#ca7d60",
     subTitle:"#6c757d",
-    about: "#d5d5d5"
+    about: "#d5d5d5",
+    backgroundHamburguer:'#f1f1f1',
+    shadowOne:'#ffded2',
+    shadowTwo:'#e3a993'
   },
 }
+

@@ -15,6 +15,10 @@ declare module 'styled-components' {
       subTitle:string,
       backgroundperfil: string,
       about: string,
+      backgroundHamburguer: string,
+      shadowOne:string,
+      shadowTwo:string
     },
   }
 }
+
