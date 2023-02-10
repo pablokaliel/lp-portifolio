@@ -102,7 +102,7 @@ export const Less = styled(DiLess)`
   width: 48px;
 `;
 export const Check = styled(AiOutlineCheck)`
-  color: #0f0;
+  color: ${(props) => props.theme.colors.namepage};
   margin-left: 10px;
   margin-right: 10px;
 `;

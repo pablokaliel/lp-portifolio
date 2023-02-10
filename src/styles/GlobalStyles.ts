@@ -6,6 +6,8 @@ export default createGlobalStyle`
         padding:0;
         box-sizing:border-box;
         font-family: "Poppins";
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
         
         
     }

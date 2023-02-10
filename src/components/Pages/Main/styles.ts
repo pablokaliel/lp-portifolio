@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { BsGithub, BsFacebook, BsLinkedin, BsInstagram } from "react-icons/bs";
+import { FaGithubSquare, FaFacebookSquare, FaLinkedin, FaInstagramSquare } from "react-icons/fa";
 
 export const Container = styled.div`
   margin-left: 300px;
@@ -67,7 +67,7 @@ export const Icon = styled.a`
   padding: 1rem;
   color: ${(props) => props.theme.colors.textInfo};
 `;
-export const Github = styled(BsGithub)`
+export const Github = styled(FaGithubSquare)`
   height: 3.5rem;
   width: 3.5rem;
   color: ${(props) => props.theme.colors.text};
@@ -81,7 +81,7 @@ export const Github = styled(BsGithub)`
     width: 2.5rem;
   }
 `;
-export const Instagram = styled(BsInstagram)`
+export const Instagram = styled(FaInstagramSquare)`
   height: 3.5rem;
   width: 3.5rem;
   color: ${(props) => props.theme.colors.text};
@@ -95,7 +95,7 @@ export const Instagram = styled(BsInstagram)`
     width: 2.5rem;
   }
 `;
-export const Linkedin = styled(BsLinkedin)`
+export const Linkedin = styled(FaLinkedin)`
   height: 3.5rem;
   width: 3.5rem;
   color: ${(props) => props.theme.colors.text};
@@ -109,7 +109,7 @@ export const Linkedin = styled(BsLinkedin)`
     width: 2.5rem;
   }
 `;
-export const Facebook = styled(BsFacebook)`
+export const Facebook = styled(FaFacebookSquare)`
   height: 3.5rem;
   width: 3.5rem;
   color: ${(props) => props.theme.colors.text};
