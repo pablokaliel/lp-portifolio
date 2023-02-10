@@ -18,6 +18,7 @@ declare module "styled-components" {
       backgroundHamburguer: string;
       shadowOne: string;
       shadowTwo: string;
+      hoverIcon: string;
     };
   }
 }

@@ -62,10 +62,26 @@ export const DivIcons = styled.div`
 export const Icons = styled.ul`
   display: flex;
   list-style: none;
+  li{
+    width: 80px;
+    margin-left:10px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    height: 80px;
+    background-color:transparent;
+    border-radius:50%;
+    transition:all 0.3s;
+
+    :hover{
+      background-color:${(props) => props.theme.colors.hoverIcon};
+      
+    }
+  }
 `;
 export const Icon = styled.a`
   padding: 1rem;
-  color: ${(props) => props.theme.colors.textInfo};
+ 
 `;
 export const Github = styled(FaGithubSquare)`
   height: 3.5rem;

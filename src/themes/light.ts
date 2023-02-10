@@ -15,5 +15,6 @@ export default {
     backgroundHamburguer: "#f1f1f1",
     shadowOne: "#ffded2",
     shadowTwo: "#e3a993",
+    hoverIcon:'#d5d5d5',
   },
 };

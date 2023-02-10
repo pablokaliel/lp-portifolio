@@ -41,18 +41,18 @@ function Main() {
       </Text>
       <DivIcons>
         <Icons>
-          <Icon href="#">
-            <Instagram />
-          </Icon>
-          <Icon href="#">
+          <li><Icon href="#">
+          <Instagram />
+            </Icon></li>
+          <li><Icon href="#">
             <Github />
-          </Icon>
-          <Icon href="#">
+          </Icon></li>
+          <li><Icon href="#">
             <Linkedin />
-          </Icon>
-          <Icon href="#">
+          </Icon></li>
+          <li><Icon href="#">
             <Facebook />
-          </Icon>
+          </Icon></li>
         </Icons>
       </DivIcons>
       <Experience />
