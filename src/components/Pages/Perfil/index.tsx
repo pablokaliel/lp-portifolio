@@ -8,11 +8,6 @@ function Perfil() {
     });
   };
 
-  function getPageYAfterScroll() {
-    console.log(window.scrollY);
-  }
-
-  window.addEventListener("scroll", getPageYAfterScroll);
 
   return (
     <Container>
@@ -37,3 +32,4 @@ function Perfil() {
 }
 
 export default Perfil;
+
